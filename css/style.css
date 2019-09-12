@@ -44,9 +44,28 @@ body {
 .details > p {
     font-weight: 300;
     letter-spacing: 0.05em;
-    margin-left: 1.5em;
+    margin-left: 3.5em;
+    border-left-width: .3em;
+    border-left-style: solid;
+    border-left-color: rgb(124, 27, 43);
+    /* border-left-color: rgb(0, 10, 40); */
+    padding-left: .6em; 
+/*    border-bottom-style: dotted;
+    border-bottom-color: rgb(124, 27, 43);
+    padding-bottom: .5em; */
 }
-
+/* Paragraph list decoration
+.details > p::before {
+  content: "▶ ";
+  font-weight: bold;
+  font-size: 1em;
+  vertical-align: middle;
+  color: rgb(0, 10, 40);
+  display:block;
+  margin-left: -2em;
+  margin-bottom: -1.5em;
+}
+*/
 .details > h2 {
     font-size: 1.2em;
     font-weight: bold;
