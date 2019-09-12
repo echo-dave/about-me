@@ -38,11 +38,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
+    margin-bottom: 3em;
 }
 
 .details > p {
     font-weight: 300;
     letter-spacing: 0.05em;
+    margin-left: 1.5em;
 }
 
 .details > h2 {
@@ -52,13 +54,13 @@ body {
 }
 
 section > h1 {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 #footer {
   padding: 20px 0;
   text-align: center;
-  background-color: #111111;
+  background-color: #0d1525;
   text-decoration: none;
 }
 
